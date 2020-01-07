@@ -65,5 +65,12 @@ test /bin/ls /bin/date /bin/ksh
 test -l /bin/ls /bin/date /bin/ksh /bin
 test /bin/ls /bin/date /bin/ksh /bin
 
-test -R /
+test ./../ft_ls -Rta ../
+test /dev/
+test -l /dev/
+test /dev/fd
+test -l /dev/fd
+
+
+#test -R /
 #test -Rl /
